@@ -1,0 +1,120 @@
+.background
+{
+    -fx-background-color : #F2613F ;
+
+
+}
+
+.text
+{
+     -fx-text-fill: white; /* Text color */
+               -fx-color :  #fgb17a;
+               -fx-font-size: 1.2em;
+
+               -fx-font-family: "Big John";
+               -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 3 );
+
+
+}
+
+.text-csedu
+{
+     -fx-text-fill: white; /* Text color */
+               -fx-color :  #fgb17a;
+               -fx-font-size: 1.4em;
+
+               -fx-font-family: "Big John";
+               -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 3 );
+
+
+}
+
+.text-field
+{
+-fx-background-color: #e7744e;
+-fx-font-size: 1.2em;
+               -fx-font-family: "Montserrat-Bold";
+                -fx-alignment: bottom-center;
+               -fx-text-fill : white;
+               -fx-spacing: 10;
+               -fx-padding 50px;
+
+          }
+
+.scroll-pane {
+    -fx-background-color: #e6cba0; /* Background color of the scroll pane */
+    -fx-padding: 10; /* Padding inside the scroll pane */
+
+    /* Scrollbar colors */
+    -fx-background: #e0e0e0;
+    -fx-background-insets: 0px;
+    -fx-background-radius: 0px;
+}
+
+/* Scrollbar thumb */
+.scroll-pane .scroll-bar:vertical .thumb {
+    -fx-background-color: #707070; /* Thumb color */
+    -fx-background-radius: 5; /* Thumb border radius */
+}
+
+/* Scrollbar track */
+.scroll-pane .scroll-bar:vertical .track {
+    -fx-background-color: transparent; /* Track color */
+}
+
+/* Decrease/Increase button */
+.scroll-pane .scroll-bar:vertical .increment-button,
+.scroll-pane .scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent; /* Button color */
+}
+
+/* Hover effect on thumb */
+.scroll-pane .scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #909090; /* Thumb color on hover */
+}
+
+
+
+.scroll-pane .scroll-bar:horizontal .thumb {
+    -fx-background-color: #707070; /* Thumb color */
+    -fx-background-radius: 5; /* Thumb border radius */
+}
+
+/* Scrollbar track */
+.scroll-pane .scroll-bar:horizontal  .track {
+    -fx-background-color: transparent; /* Track color */
+}
+
+/* Decrease/Increase button */
+.scroll-pane .scroll-bar:horizontal  .increment-button,
+.scroll-pane .scroll-bar:horizontal  .decrement-button {
+    -fx-background-color: transparent; /* Button color */
+}
+
+/* Hover effect on thumb */
+.scroll-pane .scroll-bar:horizontal  .thumb:hover {
+    -fx-background-color: #909090; /* Thumb color on hover */
+}
+
+.button
+{
+-fx-start-margin: 10px;
+    -fx-font-family: "Big John";
+    -fx-text-fill: #e7744e;
+    -fx-background-color: #481E14 ;
+    -fx-color : black;
+    -fx-pref-height: 2;
+    -fx-alignment: Center;
+    -fx-pref-width: 70;
+    -fx-font-size: 15px;
+    -fx-background-radius: 15px;
+
+}
+
+
+.button:hover
+{
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 3 );
+    -fx-text-fill : white;
+    -fx-cursor : hand;
+}

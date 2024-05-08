@@ -1,0 +1,71 @@
+.background
+{
+-fx-background-color:   #2D3250 ;
+}
+
+.text3
+{
+     -fx-text-fill: white; /* Text color */
+               -fx-color :  #fgb17a;
+               -fx-font-size: 1.2em;
+
+               -fx-font-family: "Big John";
+               -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 3 );
+
+
+}
+
+.text-field
+{
+-fx-background-color: #424769;
+-fx-font-size: 1.2em;
+               -fx-font-family: "Montserrat-Bold";
+                -fx-alignment: bottom-center;
+               -fx-text-fill : white;
+               -fx-spacing: 10;
+               -fx-padding 50px;
+                    -fx-border-color : black;
+                             fx-border-style: dotted;
+                                  -fx-border-width: 3px;
+}
+
+
+.textfield2
+{
+    -fx-color : white;
+       -fx-text-fill: white;
+    -fx-font-family: "Montserrat-Bold" ;
+
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.2, 0, 0);
+    -fx-border-color: transparent;
+    -fx-border-radius: 0px;
+    -fx-border-style: none;
+    -fx-alignment : left;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 3 );
+            -fx-background-color : #7077A1;
+
+}
+.scroll-pane {
+    -fx-background-color: #e6cba0; /* Background color of the scroll pane */
+
+
+    /* Scrollbar colors */
+    -fx-background: #e0e0e0;
+    -fx-background-insets: 0px;
+    -fx-background-radius: 0px;
+}
+
+.button3
+{
+-fx-start-margin: 10px;
+    -fx-font-family: "Big John";
+    -fx-text-fill: #e7744e;
+    -fx-background-color: #F6B17A;
+    -fx-color : black;
+    -fx-pref-height: 2;
+    -fx-alignment: Center;
+    -fx-pref-width: 70;
+    -fx-font-size: 14px;
+    -fx-background-radius: 15px;
+
+}

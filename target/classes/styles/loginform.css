@@ -1,0 +1,60 @@
+
+
+
+.background
+{
+    -fx-background-color : #e7744e ;
+}
+
+.textfield
+{
+    -fx-color : black;
+       -fx-text-fill: #e7744e;
+    -fx-font-family: "Big John" ;
+
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.2, 0, 0);
+    -fx-border-color: transparent;
+    -fx-border-radius: 0px;
+    -fx-border-style: none;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 3 );
+            -fx-background-color : black;
+
+}
+
+
+
+.label {
+
+           -fx-text-fill: white; /* Text color */
+           -fx-color :  #fgb17a;
+           -fx-font-size: 1.2em;
+           -fx-font-family: "Big John";
+}
+
+
+.login_form-container  {
+    -fx-start-margin: 10px;
+    -fx-font-family: "Big John";
+    -fx-text-fill: #e7744e;
+    -fx-background-color: black ;
+    -fx-color : black;
+    -fx-pref-height: 5;
+    -fx-alignment: Center;
+    -fx-pref-width: 100;
+    -fx-font-size: 15px;
+    -fx-background-radius: 15px;
+
+}
+
+.login_form-container:hover
+{
+-fx-cursor: hand;
+    -fx-background-color: #161624;
+    -fx-text-fill: #e6cba0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 3 );
+}
+
+.left-side
+{
+    -fx-background-color : #424769;
+}
